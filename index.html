@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Quote Machine</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Random Quote Machine</h1>
+    </header>
+
+    <main>
+        <div id="quote-container">
+            <div id="quote">
+                <i class="fa fa-quote-left"></i>
+                <span id="quote-text"></span>
+                <i class="fa fa-quote-right"></i>
+            </div>
+            <div id="author">- <span id="author-text"></span></div>
+            <div class="buttons">
+                <a class="button" id="tweet-quote" title="Tweet this quote!" target="_blank">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <button class="button" id="new-quote">New quote</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy;
+            <script>document.write(new Date().getFullYear());</script> Random Quote Machine. All rights reserved.
+        </p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
